@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+@font-face {
+    font-family: salomeregular;
+    src: url(../fonts/FiraGO-Regular.ttf);
+}
+@font-face {
+    font-family: salomebold;
+    src: url(../fonts/FiraGO-SemiBold.ttf);
+}
+body{
+    background-color: #000000;
+}
+header{
+background-color: #000000;
+height: 100px;
+padding: 64px 40px;
+border-bottom: 1px solid #ffffff;
+font-family: salomeregular;
+}
+header h1 a{
+    float: left;
+    color: #ffffff;
+    margin-right: 1000px;
+  
+}
+header li{
+    float: left;
+    margin-right: 20px;
+}
+header li a{
+    color: #ffffff;
+    
+}
+main{
+    background-color: #000000;
+}
+.satauri h2{
+width: 1310px;
+height: 155px;
+color: #ffffff;
+font-size: 128px;
+letter-spacing: 100px;
+margin-left: 100px ;
+
+}
+.txt{
+    
+    width: 33.33%;
+    background-color: #000000;
+    float: left;
+    padding-top: 50px;
+    display: flex;
+    color: #ffffff;
+    padding-left: 20px;
+    
+}
+.xazi{
+    height: 1px;
+    background-color: #ffffff;
+    margin-top: 200px;
+   
+    
+
+}
+
+.kon{
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+article{
+    width: 30%;
+}
+.img, .img2, .img3{
+    width: 100%;
+    height: 628px;
+    border-bottom: 2px solid #ffffff;;
+    overflow: hidden;
+}
+
+
+.img img{
+    width: 100%;    
+    height: 630px;
+}
+
+.statiebi{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 30px;
+
+}
+
+.flex{
+    display: flex;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.yvela .all{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.meo{
+    margin-top: 50px;
+}
+.all{
+    width: 200px;
+    height: 270px;
+}
+
+.all .poto img {
+    width: 200px;
+    height: 270px;
+    margin: 20px 30px;
+}
+.all .lari{
+    color: #ffffff;
+    margin-left: 50%;
+}
+
+.meore li a{
+    color: #ffffff;
+    line-height: 30px;
+    text-align: right;
+    font-size: 20px;
+
+}
+
+.kitxv {
+    width: 700px;
+    display: flex;
+  
+}
+
+.foot{
+    color: #ffffff;
+    font-size:20px;
+   margin: 50px;
+
+}
+.foot span{
+    font-size: 40px;
+}
+footer .kitxv img{
+    width:100px ;
+    height: 100px;
+    margin-left: 115px;
+    margin-top: 50px;
+}
